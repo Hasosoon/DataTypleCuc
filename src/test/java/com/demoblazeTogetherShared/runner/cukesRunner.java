@@ -11,11 +11,10 @@ plugin = {
         "html:target/default-html-reports",
         "rerun:target/rerun.txt"
 },
-        features = {
-
-
-        }
-
+        features = "src/test/resources/features",
+        glue = "com/demoblazeTogetherShared/stepDefs",
+        dryRun = false,
+        tags = "@wip"
 )
 public class cukesRunner {
 
