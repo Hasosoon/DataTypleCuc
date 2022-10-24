@@ -40,4 +40,5 @@ public class PurchaasedItems {
         BrowserUtils.waitFor(2);
         Assert.assertEquals(arg0,purchasePage.total.getText());
     }
+
 }

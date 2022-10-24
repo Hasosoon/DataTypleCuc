@@ -3,7 +3,7 @@ Feature: Purchase
   Background:
     Given User logged in the page
 
-  @wip
+
   Scenario Outline: Buying items
     And click on "<selection>" button
     When "<items>" are selected
@@ -16,3 +16,4 @@ Feature: Purchase
       | Phones    | Samsung galaxy s6 | 360         |
       | Laptops   | Sony vaio i7      | 1150        |
       | Monitors  | ASUS Full HD      | 1380        |
+
